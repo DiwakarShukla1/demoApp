@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-sm-12 text-center" ng-if="ctrl.cart && ctrl.cart.length == 0">Your cart is empty.</div>
+</div>
+<div class="row product-details" ng-repeat="product in ctrl.cart">
+	<div class="col-sm-3"> 
+		<img class="small-image" ng-src="assets/images/{{product.image}}"></img>
+	</div>
+	<div class="col-sm-7 description">
+		<p>{{product.name}}</p>
+		<p>Price : <b>{{product.price | currency : "&#8377;" : 0}}</b></p>
+		<p>Qty : <b>{{product.count}}</b></p>
+		<p><button class="btn btn-danger" ng-click="ctrl.removeFromCart(product.id)">Remove</button></p>
+	</div>
+	<div class="col-sm-2 description">
+		<span class="text-center">{{product.count * product.price | currency : "&#8377;" : 0}}</span>
+	</div>	
+</div>
+<div class="row" ng-if="ctrl.cart.length > 0" style="padding-top : 10px;">
+	<div class="col-sm-6">Grand Total : {{ctrl.getGrandTotal() | currency : "&#8377;" : 0}}</div>
+	<div class="col-sm-6"><button class="btn btn-primary pull-right" ng-click="ctrl.placeOrder()">PLACE ORDER</button></div>
+</div>

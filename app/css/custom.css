@@ -1,0 +1,24 @@
+.small-image {
+	height: 200px;
+	width : 200px;
+	margin: 20px;
+}
+
+.description {
+	margin-top: 20px;
+}
+
+.product-details {
+	border-bottom: 1px solid #ccc;
+}
+
+.cart-count{
+	text-align: right;
+	margin-right: 20px;
+}
+
+.count{
+	font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}

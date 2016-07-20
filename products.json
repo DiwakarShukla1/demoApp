@@ -1,0 +1,85 @@
+[{
+	"id" : 1,
+	"name" : "HP AC 15-AC122TU core i3 (5th Gen) - (4 GB/1 TB HDD/Free DOS/128 MB Graphics) Notebook N8M18PA",
+	"price" : 25990,
+	"category" : "laptop",
+	"image" : "hp-af-notebook.jpeg"
+},
+{
+	"id" : 2,
+	"name" : 	"HP 15-af114AU APU Quad Core A8 - (4 GB/1 TB HDD/Windows 10) Notebook P3C92PA#ACJ",
+	"price" : 24990,
+	"category" : "laptop",
+	"image" : "hp-notebook-400x400-imaec5sfdzbyaeyz.jpeg"
+},
+{
+	"id" : 3,
+	"name" : 	"Dell Inspiron 3558 Core i3 (5th Gen) - (4 GB/500 GB HDD/Windows 10) Notebook Z565104HIN9",
+	"price" : 29990,
+	"category" : "laptop",
+	"image" : "dell-inspiron-notebook-400x400-imaejv8vpngabbzf.jpeg"
+},
+{
+	"id" : 4,
+	"name" : 	"LeEco Le 2(Rose Gold, 32 GB)",
+	"price" : 11999,
+	"category" : "mobile",
+	"image" : "leeco-le-2-le-x526-400x400-imaejgugzr8p4cgn.jpeg"
+},
+{
+	"id" : 5,
+	"name" : 	"Lenovo VIBE P1m(Black, 16 GB)",
+	"price" : 6999,
+	"category" : "mobile",
+	"image" : "lenovo-vibe-p1m-pa1g0035in-400x400-imaec3g2ghmtg4vz.jpeg"
+},
+{
+	"id" : 6,
+	"name" : 	"SAMSUNG Galaxy J7 - 6 (New 2016 Edition)(Gold, 16 GB)",
+	"price" : 15990,
+	"category" : "mobile",
+	"image" : "samsung-galaxy-j7-2016-sm-j710fzduins-400x400-imaeg8cxjhaueqwg.jpeg"
+},
+{
+	"id" : 7,
+	"name" : 	"Rosra C1 Analog Watch - For Couple, Men, Women, Boys, Girls",
+	"price" : 269,
+	"category" : "watch",
+	"image" : "new-collection-rosra-400x400-imaef25cmrvugcv3.jpeg"
+},
+{
+	"id" : 8,
+	"name" : 	"Skmei 1016-G Chronograph Analog-Digital Watch - For Men",
+	"price" : 699,
+	"category" : "watch",
+	"image" : "1016-g-skmei-400x400-imaegfnpwfetnf3e.jpeg"
+},
+{
+	"id" : 9,
+	"name" : 	"Curren CU2-345656 Analog Watch - For Boys, Men",
+	"price" : 799,
+	"category" : "watch",
+	"image" : "cu4-125-curren-400x400-imaean2ecas8rbpg.jpeg"
+},
+{
+	"id" : 10,
+	"name" : 	"JBL T250SI On-the-ear Headphone(On the Ear)",
+	"price" : 899,
+	"category" : "earphone",
+	"image" : "jbl-t250si-400x400-imaeezwyk3bfazdb.jpeg"
+},
+{
+	"id" : 11,
+	"name" : 	"Sennheiser CX 180 Street II In-ear-canalphone(Black, Grey, In the Ear)",
+	"price" : 845,
+	"category" : "earphone",
+	"image" : "sennheiser-cx-180-400x400-imadawbthuuzvqpz.jpeg"
+},
+{
+	"id" : 12,
+	"name" : 	"Envent BoomBud Stereo Dual Pairing Bluetooth Headphone Wireless bluetooth Headphones(Black, On the Ear)",
+	"price" : 1499,
+	"category" : "earphone",
+	"image" : "envent-boombud-400x400-imaeawuzqmcgcehz.jpeg"
+}
+]

@@ -1,0 +1,11 @@
+<div class="row product-details center" ng-repeat="product in ctrl.products">
+	<div class="col-sm-3"> 
+		<img class="small-image" ng-src="assets/images/{{product.image}}"></img>
+	</div>
+	<div class="col-sm-6 description">
+		<p>{{product.name}}</p>
+		<p><b>{{product.price | currency : "&#8377;" : 0}}</b></p>
+		<br/><br/><br/><br/>
+		<div><button class="btn btn-success" ng-click="ctrl.buyNow(product.id)">BUY NOW</button> <button class="btn btn-default" ng-click="ctrl.addToCart(product.id)">ADD TO CART</button></div>
+	</div>	
+</div>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+	<title>Demo PCart</title>
+	<link rel="stylesheet" type="text/css" href="assets/library/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+	<nav class="navbar navbar-default" ng-controller="HeaderCtrl as ctrl">
+		<div class="container-fluid">
+			 <div class="navbar-header">
+			 	 <a class="navbar-brand" href="#/home">PCart</a> 
+			 </div>
+			 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			 	<ul class="nav navbar-nav">
+			 	 	<li class="active" id="home" ng-click="ctrl.linkClick('home', 'home')"><a href="">Products</a></li>
+			 	 	<li id="viewcart" ng-click="ctrl.linkClick('mycart', 'viewcart')"><a href="">My Cart ({{$root.cartCount}})</a></li>
+			 	 	<li id="orders" ng-click="ctrl.linkClick('order', 'orders')"><a href="">Orders</a></li>
+			 	</ul>
+			 </div>
+			 <!-- <div></div> -->
+		</div>
+	</nav>
+	<div class="container-fluid" ui-view></div>
+	<script src="assets/library/underscore/underscore-min.js"></script>
+	<script src="assets/library/angular/angular.min.js"></script>
+	<script src="assets/library/jquery/dist/jquery.min.js"></script>
+	<script src="assets/library/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers/homeCtrl.js"></script>
+	<script src="js/controllers/viewcartCtrl.js"></script>
+	<script src="js/services/productFactory.js"></script>
+	<script src="js/services/cartFactory.js"></script>
+	<script src="js/services/utilFactory.js"></script>
+	<script src="js/controllers/headerCtrl.js"></script>
+	<script src="js/controllers/orderCtrl.js"></script>
+</body>
+</html>
